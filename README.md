@@ -26,15 +26,15 @@ If you both edit the same lines at the same time, GitPaper shows the two version
 - Automatic LaTeX setup: it uses the LaTeX already on your computer, or installs a compact one for you
 - Works offline for writing; GitHub is needed only to sync
 
-## Install (Windows)
+## Install
 
-1. Download **GitPaper-Setup-x.y.z.exe** from the [latest release](../../releases/latest).
-2. Run it. The installer isn't code-signed yet, so Windows may show a "Windows protected your PC" warning. Click **More info → Run anyway**.
-3. Open GitPaper and sign in with GitHub. A short walkthrough covers the rest.
+Download the file for your system from the [latest release](../../releases/latest).
 
-You need a free GitHub account. The app updates itself when a new version is released.
+**Windows** (supported): `GitPaper-Setup-x.y.z.exe`. Run it; the installer isn't code-signed yet, so Windows may show a "Windows protected your PC" warning. Click **More info → Run anyway**.
 
-Only Windows is available so far. Mac and Linux are planned.
+**macOS and Linux** (previews, not yet tried on many machines): `GitPaper-x.y.z-arm64.dmg` for Macs with Apple silicon, and `GitPaper-x.y.z.AppImage` for Linux (make it executable, then run it). Neither is code-signed; on a Mac, right-click the app and choose **Open** the first time. Mac builds don't update themselves yet.
+
+Then open GitPaper and sign in with GitHub. A short walkthrough covers the rest. You need a free GitHub account, and the app updates itself when a new version is released.
 
 ## Status
 
